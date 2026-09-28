@@ -1,4 +1,3 @@
-const express = require('express');
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -22,6 +21,7 @@ version: '1.1.0',
 environment
 });
 });
+
 
 app.listen(port, '0.0.0.0', () => {
   console.log(`Secure Lab App running on port ${port}`);
